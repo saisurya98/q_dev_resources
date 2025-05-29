@@ -17,3 +17,5 @@ jobs:
         run: mvn --version
       - name: print node version
         run: node --version
+      - uses: print Python version
+        run: python --version
